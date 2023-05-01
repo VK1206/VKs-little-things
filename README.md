@@ -16,11 +16,11 @@
 
 1.在cmd窗口运行如下命令(前提是你已安装Python运行环境)  
 
-  pip install pyinstaller  
+```pip install pyinstaller  ```
   
 2.执行  
 
-  pyinstaller XXX.py  
+```pyinstaller XXX.py  ```
   
 （默认在生成的dist文件夹里会生成好几个文件，如果想要只生成一个.exe文件在pyinstaller和XXX.py之间加上--onefile即可）  
 
